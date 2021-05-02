@@ -1,5 +1,4 @@
-  /* Header at the top of the screen */ 
-		header {
+header {
 			padding: 20px;
 			text-align: center;
 			background: #D6F4FF;
@@ -46,13 +45,13 @@
 				border: 1px solid #ccc;
 			}
 		}
-		
+
         /* Formatting that applies to both nav sections */
         nav {   background-color: #E9E9E9}
 		nav ul{ list-style-type: none; }
 		nav li{ display: inline; }
 		nav a{  text-decoration: none; padding-right: 10px; }
-        
+
         /* Subsection's overall title */ 
         .subHeader {
             color: royalblue;
@@ -63,20 +62,20 @@
         .subNav {
             height: 40px;
         }
-        
+
         .subNav ul {
             width: 90%;
             align-self: center;
             margin: auto;
             padding-top: 10px;
         }
-        
+
         /* Fragment links to subsections shown on this page */
         .subNav ul li a {
             text-align: center;
             width: 15%;
             margin: auto;
-            
+
         }
 
         /* Wrapper element for subsections within the main subsection */
@@ -85,13 +84,13 @@
             text-align: center;
             text-decoration: none;
         }
-        
+
         /* Title link for subsections within the main subsection */
         .subSection a {
             text-decoration: none;
             color: royalblue;
         }
-        
+
         /* Line of three product tiles */
         .productSectionLine {
             display: inline-flex;
@@ -99,7 +98,7 @@
             overflow: auto;
             padding: 10px;
         }
-        
+
         /* Individual product tiles */
         .productTile {
             background-color: #D6F4FF;
@@ -109,7 +108,7 @@
             align-content: center;
             height: 55px;
         }
-        
+
         /* Links to individual product pages (within product titles) */
         .productTile a {
             align-self: center;
@@ -117,7 +116,7 @@
             height: 35%;
             margin: auto;
         }
-        
+
         /* div section for index of all products in the subsection and its subsections */
         .subSectionIndex {
             text-align: center;
@@ -125,7 +124,7 @@
             width: 30%;
             margin: auto;
         }
-        
+
         /* Subsection Index anchor, which is always visible */
         .subSectionIndex h3 a {
             text-align: center;
@@ -133,7 +132,7 @@
             padding: 0;
             text-decoration: none;
         }
-        
+
         /* Products in the subsection index are hidden unless hovered over */
         .subSectionIndex ul li {
             display: none;
@@ -143,14 +142,14 @@
         .subSectionIndex ul:hover li {
             display: block;
         }
-        
+
         /* Entries in the subsection index */
         .subSectionIndex ul li a {
             text-decoration: none;
             color: black;
             padding: 15px;
         }
-    
+
         /* Contact Info Section at the bottom of the screen */
 		.contactInfo {
 			float: center;
@@ -160,7 +159,7 @@
 			line-height: 2px;
 			background-color: #D6F4FF;
 		}
-        
+
         /* Copyright statement under the contact info section */
 		footer{
 			float: center;
@@ -168,4 +167,4 @@
 			text-align: center;
 			padding: 11px;
 			line-height: 2px;
-		}
+		} 
